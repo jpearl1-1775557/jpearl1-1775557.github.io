@@ -1,41 +1,63 @@
-<!DOCTYPE html>
-<html>
-<head>
+#Header {
+    border: solid 8px black;
+    width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#LeftNav {
+    border: solid 8px black;  
+    width: 400px; 
+    float: left;
+    text-align: center;
+    padding-bottom: 8px;
+}
+#Content {
+    border: solid 8px black;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px;
+}
+#Footer {
+    border: solid 8px black;  
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+#Header h1 {
+    font-size: 60px;
+    font-family: "Passion One";
+    color: #FFBC00;
+    font-weight: bold;
+}
+p {
+    color: white;
+    font-family: "Arial";
+    font-weight: bold;
+}
+div {
+    background-color: #8E41D5;
+
+}
+body {
+    background-color: gold;
+}
+h3 {
+    Color: #FFBC00;
+    font-size: 40px;
+    font-family: "Passion One";
+    margin-bottom: 0px;
+
+}
+a {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
     
-<link rel="stylesheet" type="text/css" href="mystyle.css">
-</head>
-<body>
-
-<h1>Pressed Flowers</h1>
-<p>Here are some flowers I pressed.</p>
-        <body>
-        
-        <p>The pressed flowers are floating to the left.</p>
-
-        
-        <p><img src="pic1.jpg" alt="Pressed flowers" style="width:400px;height:600;margin-left:15px;">
-
-            <style> 
-                    #rcorners1 {
-                        border-radius: 25px;
-                        background: greenyellow;
-                        padding: 20px; 
-                        width: 200px;
-                        height: 150px;    
-                    }
-                    
-                    
-                    
-                    </style>
-                    </head>
-                    <body>
-                    
-                          
-                    
-                    <p id="rcorners1">Rounded corners!</p>
-                    <p>Here is a box with rounded corners wahoo</p>
-                    
-    
-</body>
-</html>
-
+}
